@@ -1,0 +1,22 @@
+{
+    "name": "My Kinopoisk",
+	  "version": "1.0",
+	  "description": "Allows to save or delete films in your collection",
+	  "background": {
+	    "scripts": ["background.js"],
+	    "persistent": true
+	  },
+	  "page_action" :
+	  {
+      "default_popup" : "popup.html",
+	    "default_icon" : "k.png",
+	    "default_title" : "My Kinopoisk"
+	  },
+	  "permissions" : [
+	    "declarativeContent",
+      "tabs"
+	  ],
+	  "icons" : {
+	  },
+	  "manifest_version": 2
+	}
